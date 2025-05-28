@@ -1,0 +1,76 @@
+{
+  "name": "@ver.id/content.documentation",
+  "description": "The ver.id documentation.",
+  "packageManager": "yarn@4.1.1",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "test": "",
+    "lint:markdown": "markdownlint ./src",
+    "lint:default": "eslint --ignore-pattern dist './.vitepress/**/*.{ts,vue}'",
+    "lint": "yarn run lint:default && yarn run lint:markdown",
+    "prettier": "prettier --check --ignore-unknown './.vitepress/**/*.{ts,vue}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ver.wtf/ver.id/content/documentation"
+  },
+  "keywords": [
+    "docs"
+  ],
+  "contributors": [
+    "Sten Reijers <sten@ver.id> (https://ver.id)"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://ver.wtf/ver.id/content/documentation/-/issues"
+  },
+  "homepage": "https://ver.wtf/ver.id/content/documentation",
+  "devDependencies": {
+    "@codedependant/semantic-release-docker": "^5.0.3",
+    "@eslint/js": "^9.7.0",
+    "@heroicons/vue": "^2.1.5",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/gitlab": "^13.2.0",
+    "@semantic-release/npm": "^12.0.1",
+    "@types/eslint": "^9",
+    "@types/eslint__js": "^8.42.3",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "@ver.id/frameworks.carina": "^1.15.2",
+    "@ver.id/frameworks.gamora": "^4.14.0",
+    "@vue-flow/controls": "^1.1.2",
+    "@vue-flow/core": "^1.39.0",
+    "autoprefixer": "^10.4.19",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "markdownlint": "^0.34.0",
+    "markdownlint-cli": "^0.41.0",
+    "postcss": "^8.4.39",
+    "postcss-import": "^16.1.0",
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.0.0",
+    "shiki": "^1.11.1",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^7.17.0",
+    "vitepress": "^1.3.1",
+    "vue": "^3.4.33"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

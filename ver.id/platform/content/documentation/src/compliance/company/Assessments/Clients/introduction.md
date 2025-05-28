@@ -1,0 +1,5 @@
+# Client assessment
+
+Our responsibility within the ecosystem involves conducting thorough evaluations on our clients; Issuers and Relying Parties. This is crucial for creating trust within the ecosystem and among the customers that consume your services and see our trusted branding in all kind of identity transactions. Identity apps may contain highly sensitive information such as National Identification Numbers (NIN), or BSN in dutch, gender, passport numbers, among other attributes. It is imperative to clarify the purposes for which these attributes are shared, with whom, and why, not only to create trust for your customers but also to comply with regulations. This process should be entirely transparent to the customer, who should have the ability to opt out at any time if necessary.
+
+The [eIDAS 2.0 regulation](../regulations/eidas-2.md) outlines the contours of a Trust Registry, which comprises all the attributes that a RP is permitted to access to ensure the provision of its services to its clients. To this end, we assess you as client before you can proceed by using our dashboard.
